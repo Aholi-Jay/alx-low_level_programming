@@ -6,22 +6,18 @@
 */
 int main(void)
 {
-	int y;
+	char low, e, q;
 
-	for (y = 97; y <= 122; y++)
+	e = 'e';
+	q ='q';
+
+	for (low = 'a'; low <= 'z'; low++)
+
 	{
-	^<< << << < HEAD
-	if (m == 101 || m == 113)
-	== == == =
-	if (y == 101 || y == 113)
-	>> >> >> > c38d008b18676f16774155151031a0fcc1c46752
-	{
+		if (low != e && low != q)
+			putchar(low);
 	}
-	else
-	{
-	putchar(y);
-	}
-	}
-	putchar('\n');
+	putchar('/n')
+
 	return (0);
 }
