@@ -4,7 +4,7 @@
  * _abs function - prints the sign of a number
  *
  * @n: int used for the arg
- * Return Always (0)
+ * Return: Always (0)
  */
 int _abs(int n)
 {
