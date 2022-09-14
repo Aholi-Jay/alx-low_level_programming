@@ -1,10 +1,11 @@
 #include "main.h"
-
 /**
- * _abs function - prints the sign of a number
+ * _abs - compute absolute value of integer
  *
- * @n: int used for the arg
- * Return: Always (0)
+ * @n: integer argument
+ *
+ * Return: absolute value
+ *
  */
 int _abs(int n)
 {
