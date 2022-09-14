@@ -5,7 +5,7 @@
  *
  * @c: is the int that we will use for argument
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 
 int _islower(int c)
