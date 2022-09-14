@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * main - Entry Point
+ * main - entry point
  *
- * Description: print alphabet in lowercase then new line
+ * Description: Prints __putchar
  *
- * Return Always 0
+ * Return: always 0
  */
 
-int main(void);
+int main(void)
 {
-
-	int i  = 0;
+	int i = 0;
 	char c;
 	char s[] = "_putchar";
 
