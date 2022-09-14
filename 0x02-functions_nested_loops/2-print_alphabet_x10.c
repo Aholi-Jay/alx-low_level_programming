@@ -1,9 +1,9 @@
 #include  "main.h"
 
 /**
- * print alphabet_x10 - in lowercase followed by new line
+ * print_alphabet_x10 - in lowercase followed by new line
  *
- *Return Always 0(Success)
+ * Return: Always 0(Success)
  *
  */
 
