@@ -3,9 +3,9 @@
 /**
  * print_sign function - prints the sign of a number
  *
- * @n: char used for the arg
+ * @n: number being tested
  *
- * Return Always (0)
+ * Return: Always 0
  *
  */
 int print_sign(int n)
