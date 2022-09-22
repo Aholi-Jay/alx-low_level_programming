@@ -1,22 +1,37 @@
 #include "main.h"
 
 /**
- * _strncpy - a function that copies a string
- * @dest: pointer to dest string
- * @src: pointer to the src string
- * @n: number of bytes to be used
+ * _strncat - function compairing two words
  *
- * Return: pointer to destination string
+ * @dest : pointer to char parameter
+ *
+ * @src : pointer to char parameter
+ *
+ * @n : int parameter
+ *
+ * Return: *dest
  */
-char *_strncpy(char *dest, char *src, int n)
+
+char *_strncat(char *dest, char *src, int n)
 {
+	int m;
 	int i;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		dest[i] = src[i];
+	m = 0;
 
-	for ( ; i < n; i++)
-		dest[i] = '\0';
+	for (i = 0; i < 1000; i++)
+	{
+		if (dest[i] == '\0')
+		{
+			break;
+		}
+		m++;
+	}
 
+	for (i = 0; src[i] != '\0' && i < n; i++)
+	{
+		dest[m + i] = src[i];
+	}
+	dest[m + i] = '\0';
 	return (dest);
 }
