@@ -1,37 +1,26 @@
 #include "main.h"
 
 /**
- * _strncat - function that compares two strings
+ * _strcmp - function that compares two strings
  *
- * @dest : pointer to char parameter
+ * @s1 : pointer to char params
  *
- * @src : pointer to char parameter
+ * @s2 : pointer to char params
  *
- * @n : int parameter
- *
- * Return: *dest
+ * Return: char
  */
 
-char *_strncat(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
-	int m;
 	int i;
+	int R;
 
-	m = 0;
+	i = 0;
 
-	for (i = 0; i < 1000; i++)
+	while (s1[i] == s2[i] && (s1[i] != '\0' || s2[i] != '\0'))
 	{
-		if (dest[i] == '\0')
-		{
-			break;
-		}
-		m++;
+		i++;
 	}
-
-	for (i = 0; src[i] != '\0' && i < n; i++)
-	{
-		dest[m + i] = src[i];
-	}
-	dest[m + i] = '\0';
-	return (dest);
+	R = s1[i] - s2[i];
+	return (R);
 }
