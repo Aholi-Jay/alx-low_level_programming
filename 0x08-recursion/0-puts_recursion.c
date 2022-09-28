@@ -3,7 +3,7 @@
 /**
  * _puts - function that prints a string
  *
- * *s: String for argument
+ * @s: String for argument
  *
  * Return: Always (0)
  */
