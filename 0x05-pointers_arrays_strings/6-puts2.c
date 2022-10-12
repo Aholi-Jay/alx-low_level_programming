@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *puts2 - prints a string, followed by a new line,
- *@str: pointer to the string to print
- *Return: void
+ * puts2 - prints a string, followed by a new line,
+ * @str: char used for argument
+ * Return: void
 */
 
 void puts2(char *str)
